@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-image: url(https://images.unsplash.com/photo-1506634064465-7dab4de896ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);
+
+    background-color: gray;
+    /* background-image: url(https://images.unsplash.com/photo-1470058869958-2a77ade41c02?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80); */
+    font-family: 'Source Serif Pro', 'Roboto', sans-serif;
+    color: #1b263b;
+}
+
+/* /* div {
+    border: 2px solid red;
+} */
+
+/* .service {
+    border: 2px solid rebeccapurple;
+} */
+
+.services {
+    background-color: rgba(255, 255, 255, .45);
+    backdrop-filter: blur(10px);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 1620px;
+    border: 3px solid white;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h1,
+p,
+.gift {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex: 1 1 0px;
+    justify-content: space-evenly;
+    gap: 16px;
+    width: auto;
+}
+
+.service p {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    width: 100%
+}
+
+section {
+    width: 100%
+}
+
+.service {
+    display: flex;
+}
+
+
+.item {
+    text-align: left;
+    width: 90%;
+
+}
+
+.price {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    text-align: right;
+}
+
+.stack {
+    flex-direction: column;
+    width: 100%;
+}
+
+.divider {
+    width: 3px;
+    height: auto;
+    margin: 6px 0;
+    background: white;
+}
+
+.divider-two {
+    margin: 24px 0;
+    height: 3px;
+    width: auto;
+    background-color: white;
+}
+
+.divider-three {
+    content: '';
+}
+
+
+.item-title {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .divider,
+    .divider-two {
+        height: 3px;
+        width: auto;
+        background-color: white;
+    }
+
+    .divider-two {
+        margin: 24px 0;
+    }
+
+}
